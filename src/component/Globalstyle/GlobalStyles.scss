@@ -1,0 +1,38 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+:root {
+    --black: #333;
+    --white: #fff;
+    --size-range: 15px;
+    --height-background: 950px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.6rem;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
+}
+
+a [href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
