@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/project-v2/static/css/main.0238c253.css",
+    "main.js": "/project-v2/static/js/main.1fa9e513.js",
+    "static/js/787.c1b5cae5.chunk.js": "/project-v2/static/js/787.c1b5cae5.chunk.js",
+    "static/media/wind.mp3": "/project-v2/static/media/wind.6d5325d6d8e612549da0.mp3",
+    "static/media/birds.mp3": "/project-v2/static/media/birds.472ea28e1421fdcb571c.mp3",
+    "static/media/rain1.mp3": "/project-v2/static/media/rain1.91d6c76d3789d9715fc4.mp3",
+    "static/media/piano.mp3": "/project-v2/static/media/piano.ab5a1b8d3729200b9d87.mp3",
+    "static/media/frog.mp3": "/project-v2/static/media/frog.220fc3af3631e92020cf.mp3",
+    "static/media/happy1.gif": "/project-v2/static/media/happy1.635d49766aca6859dc5b.gif",
+    "static/media/traveling1.jpg": "/project-v2/static/media/traveling1.62cdaee6622796a10151.jpg",
+    "static/media/tired1.gif": "/project-v2/static/media/tired1.79a8a8b80cb2df31346e.gif",
+    "static/media/thunder1.mp3": "/project-v2/static/media/thunder1.9acc996feb49955c2fc3.mp3",
+    "static/media/jazz.mp3": "/project-v2/static/media/jazz.5ba9c5f58079cea1d463.mp3",
+    "static/media/rainminimal.jpg": "/project-v2/static/media/rainminimal.4c531508437e0ae879c8.jpg",
+    "static/media/owl.mp3": "/project-v2/static/media/owl.42a4cb378f321fb2975a.mp3",
+    "static/media/background6.jpg": "/project-v2/static/media/background6.9bda1a83a5c9d1cade12.jpg",
+    "static/media/meiying-ng-OrwkD-iWgqg-unsplash.jpg": "/project-v2/static/media/meiying-ng-OrwkD-iWgqg-unsplash.eb390baa0702413090e5.jpg",
+    "static/media/slick.svg": "/project-v2/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/project-v2/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/project-v2/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/project-v2/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/project-v2/index.html",
+    "static/media/circle.svg": "/project-v2/static/media/circle.25bfa9549f780a663ed5.svg",
+    "main.0238c253.css.map": "/project-v2/static/css/main.0238c253.css.map",
+    "main.1fa9e513.js.map": "/project-v2/static/js/main.1fa9e513.js.map",
+    "787.c1b5cae5.chunk.js.map": "/project-v2/static/js/787.c1b5cae5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0238c253.css",
+    "static/js/main.1fa9e513.js"
+  ]
+}
