@@ -20,14 +20,14 @@ function Intro() {
                         <img src={happy} />
                         <Button status to="/home">
                             <span className={cx('happy-tiltle')}>Happy</span>
-                            <FontAwesomeIcon icon={faSmileBeam} />
+                            <FontAwesomeIcon icon={faSmileBeam} bounce />
                         </Button>
                     </div>
                     <div className={cx('tired')}>
                         <img src={tired} />
                         <Button status to="/home">
                             <span className={cx('tired-tiltle')}>Tired</span>
-                            <FontAwesomeIcon icon={faSadTear} />
+                            <FontAwesomeIcon icon={faSadTear} bounce />
                         </Button>
                     </div>
                 </div>

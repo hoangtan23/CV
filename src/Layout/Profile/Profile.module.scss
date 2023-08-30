@@ -1,7 +1,7 @@
 .wrapper {
-    height: var(--height-background);
-    background-color: #333;
-    color: #fff;
+    min-height: var(--height-background);
+    background-color: #fff1e8;
+    color: #111111;
     header {
         width: 100%;
         height: 64px;
@@ -9,6 +9,7 @@
 }
 
 .content {
+    position: relative;
     padding: 0 260px;
     display: flex;
     flex-direction: column;
@@ -32,25 +33,123 @@
     img {
         width: 700px;
         min-height: 350px;
+        border: 2px solid #ffffff;
+        border-radius: 6px;
+        margin-bottom: 12px;
     }
     img:hover ~ .btn,
     .btn:hover {
-        color: #fff;
-        background-color: blue;
-        border: 1px solid #333;
+        color: #111111;
+        background-color: #ffffff;
         border-radius: 6px;
-        transition: 0.25s ease;
+        transition: 0.3s linear;
     }
-    span {
-        align-items: center;
+    div {
+        text-align: center;
     }
     .btn {
         position: absolute;
         right: 12px;
-        bottom: 42px;
-        padding: 4px;
-        font-size: 18px;
+        bottom: 60px;
+        padding: 4px 10px;
+        font-size: 16px;
         background-color: transparent;
         color: transparent;
+        text-decoration: none;
     }
+}
+
+.cv {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    padding: 12px 60px;
+    margin: 30px 0 60px;
+    background-color: #caef46;
+}
+.cv span {
+    position: absolute;
+    display: block;
+    background-image: linear-gradient(to right, #ffa400, #00eafd);
+    transition: all 0.25s linear;
+}
+
+.cv span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.cv span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 0;
+    transition-delay: 0.25s;
+}
+
+.cv span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    transition-delay: 0.5s;
+}
+
+.cv span:nth-child(4) {
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    height: 0;
+    transition-delay: 0.75s;
+}
+
+.cv:hover span:nth-child(odd) {
+    width: 100%;
+}
+
+.cv:hover span:nth-child(even) {
+    height: 100%;
+}
+
+.stick1 {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.stick2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 400px;
+}
+
+.stick3 {
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+.stick4 {
+    position: absolute;
+    left: 31%;
+    top: 270px;
+}
+
+.stick5 {
+    position: absolute;
+    right: 31%;
+    bottom: 220px;
+}
+
+.prevArrow {
+    font-size: 30px;
+    background-color: #ffa400;
+    color: aliceblue;
+}
+
+.nextArrow {
 }

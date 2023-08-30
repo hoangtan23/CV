@@ -4,8 +4,13 @@ import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import stick1 from '../../images/image 107.png';
+import stick2 from '../../images/image 785.png';
+import stick3 from '../../images/image 786.png';
+import stick4 from '../../images/image 791.png';
+import './Profile.css';
 
-import { project, landingpages } from '../../images/index.js';
+import { project, landingpages } from '../../images/object/index.js';
 
 const cx = className.bind(styles);
 
@@ -32,7 +37,7 @@ function Profile() {
                 <Slider {...settings}>
                     {project.map((item, index) => (
                         <div className={cx('content-item')} key={index}>
-                            <img src={item.img} />
+                            <img src={item.img} alt="error" />
                             <div>{item.tiltle}</div>
                             <Link className={cx('btn')}>view</Link>
                         </div>
@@ -44,14 +49,25 @@ function Profile() {
                 <Slider {...settings}>
                     {landingpages.map((item, index) => (
                         <div className={cx('content-item')} key={index}>
-                            <img src={item.img} />
+                            <img src={item.img} alt="error" />
                             <div>{item.tiltle}</div>
                             <Link className={cx('btn')}>view</Link>
                         </div>
                     ))}
                 </Slider>
+                <img src={stick1} className={cx('stick1')} alt="error" />
+                <img src={stick2} className={cx('stick2')} alt="error" />
+                <img src={stick3} className={cx('stick3')} alt="error" />
+                <img src={stick4} className={cx('stick4')} alt="error" />
+                <img src={stick4} className={cx('stick5')} alt="error" />
 
-                <button>CV</button>
+                <button className={cx('cv')}>
+                    View CV
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     );
