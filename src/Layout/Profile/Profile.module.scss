@@ -117,6 +117,7 @@
     position: absolute;
     right: 100px;
     top: 100px;
+    animation: spinner 5s infinite linear reverse;
 }
 
 .stick2 {
@@ -125,12 +126,14 @@
     height: 50px;
     top: 0;
     left: 400px;
+    animation: spinner 2s infinite linear;
 }
 
 .stick3 {
     position: absolute;
     left: 100px;
     bottom: 100px;
+    animation: snake 0.5s infinite linear alternate;
 }
 
 .stick4 {
@@ -142,14 +145,17 @@
 .stick5 {
     position: absolute;
     right: 31%;
-    bottom: 220px;
+    bottom: 230px;
 }
 
-.prevArrow {
-    font-size: 30px;
-    background-color: #ffa400;
-    color: aliceblue;
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.nextArrow {
+@keyframes snake {
+    to {
+        transform: rotate(30deg);
+    }
 }

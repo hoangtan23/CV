@@ -11,13 +11,13 @@ export const project = [
         id: 0,
         img: VCB,
         tiltle: 'VCB Internet Banking',
-        router: '/VCB',
+        router: '/VCBclone',
     },
     {
         id: 1,
         img: rainymood,
         tiltle: 'Rainy Mood',
-        router: '/rainymood',
+        router: '/Intro',
     },
 ];
 
@@ -32,7 +32,7 @@ export const landingpages = [
         id: 1,
         img: influexa,
         tiltle: 'Influexa',
-        router: '/influexa',
+        router: '/Influexa',
     },
     {
         id: 2,

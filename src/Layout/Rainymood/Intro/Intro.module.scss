@@ -1,0 +1,41 @@
+.wrapper {
+    height: var(--height-background);
+    background-image: url('../../../images/traveling1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 180px;
+    font-size: 62px;
+}
+
+.tiltle {
+    color: rgba(252, 207, 82, 1);
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 54px;
+}
+
+.happy,
+.tired {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 120px;
+        margin-bottom: 12px;
+    }
+}
+
+.happy-tiltle,
+.tired-tiltle {
+    font-size: 24px;
+    padding: 8px;
+}

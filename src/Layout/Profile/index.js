@@ -39,7 +39,9 @@ function Profile() {
                         <div className={cx('content-item')} key={index}>
                             <img src={item.img} alt="error" />
                             <div>{item.tiltle}</div>
-                            <Link className={cx('btn')}>view</Link>
+                            <Link className={cx('btn')} to={item.router}>
+                                view
+                            </Link>
                         </div>
                     ))}
                 </Slider>
@@ -51,7 +53,9 @@ function Profile() {
                         <div className={cx('content-item')} key={index}>
                             <img src={item.img} alt="error" />
                             <div>{item.tiltle}</div>
-                            <Link className={cx('btn')}>view</Link>
+                            <Link className={cx('btn')} to={item.router}>
+                                view
+                            </Link>
                         </div>
                     ))}
                 </Slider>
