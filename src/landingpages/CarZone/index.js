@@ -11,7 +11,7 @@ function CarZone() {
             <header className={cx('header')}>
                 <div className={cx('topnav')}>
                     <div className={cx('label')}>
-                        CarZone
+                        <span>CarZone</span>
                         <img src={cars} alt="error" />
                     </div>
 
@@ -24,7 +24,7 @@ function CarZone() {
                     </div>
 
                     <div className={cx('header-noti')}>
-                        <div className="ring">
+                        <div>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="25"
@@ -51,14 +51,16 @@ function CarZone() {
                             </svg>
                             <span>4</span>
                         </div>
-                        <button className="login">Login</button>
+                        <button>Login</button>
                     </div>
                 </div>
 
                 <div className={cx('content')}>
                     <div className={cx('paragraph-first')}>
-                        <span>Best In Auto</span>
-                        <span>Rental & Service</span>
+                        <div>
+                            <span>Best In Auto</span>
+                            <span>Rental & Service</span>
+                        </div>
                         <img src={cars1} />
                     </div>
                     <div className={cx('paragraph-secound')}>
