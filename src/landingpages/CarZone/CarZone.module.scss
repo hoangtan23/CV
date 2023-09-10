@@ -95,6 +95,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-left: 64px;
+    position: relative;
     div {
         display: flex;
         flex-direction: column;
@@ -115,22 +116,501 @@
             line-height: normal;
         }
     }
+
     img {
         width: 571px;
         height: 346px;
         margin-right: 56px;
+    }
+    .elip {
+        right: 0;
+        top: -40px;
+        position: absolute;
+    }
+}
+
+.paragraph-secound {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    img {
+        margin-left: 61px;
+    }
+    span {
+        margin-left: 58px;
+        width: 560px;
+        height: 135px;
+        font-size: 18px;
+    }
+    .elip {
+        position: absolute;
+        transform: translate(-20px, -20px);
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        background-color: #fc621c;
+        z-index: -1;
+    }
+}
+
+// SEASON1
+
+.season1 {
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fc621c;
+    color: #fff;
+    position: relative;
+    padding: 0 74px;
+    header {
+        position: absolute;
+        top: -50px;
+        right: 0;
+        font-size: 90px;
+        font-weight: 800;
+        opacity: 0.3;
+    }
+    .season1-tiltle {
+        display: flex;
+        flex-direction: column;
+        font-size: 58px;
+        font-weight: 600;
+        text-align: center;
+        margin: 40px 0;
+        span {
+            width: 505px;
+            padding: 4px 14px;
+            font-size: 14px;
+            text-align: center;
+            font-weight: 100;
+            opacity: 0.8;
+        }
+    }
+    div:nth-child(2) {
+        margin-top: 60px;
+    }
+    div:nth-child(3) {
+        margin-top: 120px;
+    }
+    .season1-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .season1-item {
+            width: 514px;
+            img {
+                width: 460px;
+                height: 340px;
+            }
+            h3 {
+                width: 430px;
+                font-size: 38px;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    top: 75%;
+                    transform: translate(-75%, -50%);
+                    height: 1px;
+                    width: 110px;
+                    background-color: #fff;
+                    opacity: 0.9;
+                }
+            }
+            p {
+                width: 400px;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.season2 {
+    height: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 120px;
+    .form {
+        padding-left: 120px;
+        h1 {
+            width: 560px;
+            font-size: 58px;
+        }
+        h5 {
+            width: 534px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        form {
+            margin-top: 70px;
+            width: 850px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            input,
+            select {
+                width: 366px;
+                height: 60px;
+                margin-right: 40px;
+                margin-bottom: 48px;
+                padding: 16px 24px;
+                border-radius: 5px;
+                border: 1px solid rgba(0, 0, 0, 0.05);
+                background: #f9f9f9;
+                font-size: 14px;
+            }
+            button {
+                width: 194px;
+                height: 60px;
+                border-radius: 5px;
+                background: #fc621c;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+    .img-form {
         position: relative;
-        &:before {
-            position: absolute;
-            display: block;
-            content: 'hahah';
+        width: 594px;
+        height: 543px;
+        border-radius: 35px;
+        margin-top: 30px;
+        img {
             width: 100%;
-            height: 200%;
-            top: -50px;
-            left: 0;
-            color: #dd4141;
-            background-color: blue;
-            z-index: 2;
+            height: 100%;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 710px;
+            height: 100%;
+            border: 1px solid #fc621c;
+            border-right: transparent;
+            border-top-left-radius: 35px;
+            border-bottom-left-radius: 35px;
+            top: -30px;
+            left: -117px;
+            z-index: -1;
+        }
+    }
+}
+
+.season3 {
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 140px;
+    h1 {
+        font-size: 58px;
+        margin-bottom: 22px;
+    }
+    h5 {
+        width: 512px;
+        align-content: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 74px;
+    }
+    .season3-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .img34 {
+            width: 470px;
+            height: 100%;
+        }
+        div:nth-child(2) {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 16px;
+            word-spacing: 4px;
+            margin: 0 16px;
+            p:last-child {
+                margin-bottom: 24px;
+            }
+        }
+        div:nth-child(3) {
+            width: 760px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            img:first-child {
+                width: 40%;
+                margin-right: 24px;
+                border-radius: 50%;
+            }
+            img:nth-child(2) {
+                width: 40%;
+            }
+            img:last-child {
+                flex: 1;
+                margin-top: 24px;
+            }
+        }
+    }
+}
+
+.season4 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 72px 52px;
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 600px;
+        top: 0;
+        left: 0;
+        background-color: #fc621c;
+        z-index: -1;
+    }
+    h1 {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        font-size: 74px;
+        opacity: 0.3;
+        color: #fff;
+    }
+    header {
+        display: flex;
+        height: 200px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: #fff;
+        h2 {
+            width: 456px;
+            font-size: 62px;
+        }
+        span {
+            width: 550px;
+            height: 100px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    }
+    .season4-img {
+        position: relative;
+        img:nth-child(1) {
+            position: absolute;
+            top: 20px;
+            left: -50px;
+        }
+
+        img:nth-child(3) {
+            position: absolute;
+            bottom: 0;
+            right: -50px;
+        }
+    }
+    h2 {
+        font-size: 62px;
+        margin-top: 62px;
+    }
+    span {
+        margin-top: 24px;
+        font-size: 16px;
+        width: 570px;
+        text-align: center;
+    }
+    .season4-content {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        div:nth-child(2) {
+            margin-top: 60px;
+        }
+        div:nth-child(3) {
+            margin-top: 120px;
+        }
+        .season4-item {
+            h2 {
+                position: relative;
+                font-size: 40px;
+                margin: 0 16px;
+                &::after {
+                    position: absolute;
+                    top: 50%;
+                    right: 100px;
+                    transform: translateY(-50%);
+                    content: '';
+                    height: 1px;
+                    width: 76px;
+                    background-color: #000;
+                }
+            }
+            h4 {
+                font-size: 26px;
+                font-weight: 500;
+                margin: 0 16px;
+            }
+            p {
+                font-size: 18px;
+                margin: 0 16px;
+            }
+        }
+    }
+}
+
+.season5 {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 0 150px;
+        h1 {
+            width: 520px;
+            font-size: 58px;
+        }
+        span {
+            width: 444px;
+            font-size: 14px;
+        }
+    }
+    .season5-content {
+        margin-top: 88px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #fff;
+        margin-bottom: 180px;
+        .season5-item:nth-child(2) {
+            margin-top: 60px;
+            background-color: #fc621c;
+        }
+        .season5-item {
+            width: 584px;
+            height: 330px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #f8f8f8;
+            color: #000;
+            border-radius: 30px;
+            padding: 40px;
+            span {
+                width: 80%;
+            }
+            p {
+                color: #ffd43b;
+                font-size: 32px;
+                svg {
+                    margin-left: 10px;
+                }
+            }
+            .season5-person {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                img {
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    height: 650px;
+    background-color: #150a05;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    header {
+        width: 1140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 2px solid #fff;
+        padding: 100px 0;
+        margin-bottom: 84px;
+        h1 {
+            font-size: 54px;
+            font-weight: 600;
+        }
+        button {
+            width: 180px;
+            height: 56px;
+            border-radius: 28px;
+            background: #fc621c;
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+    .footer-content {
+        width: 1140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p {
+            h1 {
+                font-size: 20px;
+                margin-bottom: 22px;
+            }
+            h5 {
+                width: 220px;
+                font-size: 14px;
+                font-weight: 300;
+                opacity: 0.8;
+            }
+        }
+        ul {
+            list-style-type: none;
+            font-weight: 200;
+            li:first-child {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 8px;
+                opacity: 1;
+            }
+            li {
+                margin-bottom: 4px;
+                opacity: 0.8;
+            }
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            input {
+                width: 224px;
+                height: 42px;
+                border-radius: 24px;
+                background: rgba(252, 98, 28, 0.14);
+                color: #fff;
+                padding: 0 12px;
+                margin: 20px 0;
+            }
+            button {
+                width: 224px;
+                height: 46px;
+                border-radius: 23px;
+                background: #fc621c;
+                color: #fff;
+            }
         }
     }
 }
