@@ -4,23 +4,23 @@ import cars from './img/sports-car-with-sun-and-birds-3946ld-removebg-preview 1.
 import cars1 from './img/Rectangle 87.png';
 import girl from './img/image 23.png';
 import elip from './img/image 25.png';
-import season11 from './img/seasion 1- 1.png';
-import season12 from './img/seasion 1- 2.png';
-import season13 from './img/seasion 1- 3.png';
-import season2 from './img/seasion 2.png';
-import season31 from './img/seasion 3-1.png';
-import season32 from './img/seasion 3-2.png';
-import season33 from './img/seasion 3-3.png';
-import season34 from './img/seasion 3-4.png';
-import season41 from './img/seasion 4-1.png';
-import season42 from './img/seasion 4-2.png';
-import season43 from './img/seasion 4-3.png';
-import season51 from './img/seasion 5-1.png';
-import season52 from './img/seasion 5-2.png';
-import season53 from './img/seasion 5-3.png';
-import season61 from './img/seasion 6-1.png';
-import season62 from './img/seasion 6-2.png';
-import season63 from './img/seasion 6-3.png';
+import section11 from './img/section 1- 1.png';
+import section12 from './img/section 1- 2.png';
+import section13 from './img/section 1- 3.png';
+import section2 from './img/section 2.png';
+import section31 from './img/section 3-1.png';
+import section32 from './img/section 3-2.png';
+import section33 from './img/section 3-3.png';
+import section34 from './img/section 3-4.png';
+import section41 from './img/section 4-1.png';
+import section42 from './img/section 4-2.png';
+import section43 from './img/section 4-3.png';
+import section51 from './img/section 5-1.png';
+import section52 from './img/section 5-2.png';
+import section53 from './img/section 5-3.png';
+import section61 from './img/section 6-1.png';
+import section62 from './img/section 6-2.png';
+import section63 from './img/section 6-3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -98,18 +98,18 @@ function CarZone() {
                 </div>
             </header>
             <main>
-                <season className={cx('season1')}>
+                <section className={cx('section1')}>
                     <header>Why Choose Us ?</header>
-                    <div className={cx('season1-tiltle')}>
+                    <div className={cx('section1-tiltle')}>
                         Why Choose Us ?
                         <span>
                             Delectus, nesciunt imperdiet dolor litora orci? Tristique per natus. Saepe convallis,
                             nostra. Ducimus convallis necessitatibus alias
                         </span>
                     </div>
-                    <div className={cx('season1-container')}>
-                        <div className={cx('season1-item')}>
-                            <img src={season11} alt="img" />
+                    <div className={cx('section1-container')}>
+                        <div className={cx('section1-item')}>
+                            <img src={section11} alt="img" />
                             <h3>Online Vehicle Rental Booking</h3>
                             <p>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -117,8 +117,8 @@ function CarZone() {
                                 look even slightly believable.
                             </p>
                         </div>
-                        <div className={cx('season1-item')}>
-                            <img src={season12} alt="img" />
+                        <div className={cx('section1-item')}>
+                            <img src={section12} alt="img" />
                             <h3>Professional Technician Services</h3>
                             <p>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -126,8 +126,8 @@ function CarZone() {
                                 look even slightly believable.
                             </p>
                         </div>
-                        <div className={cx('season1-item')}>
-                            <img src={season13} alt="img" />
+                        <div className={cx('section1-item')}>
+                            <img src={section13} alt="img" />
                             <h3>Full Auto Servicing Facility</h3>
                             <p>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -136,8 +136,8 @@ function CarZone() {
                             </p>
                         </div>
                     </div>
-                </season>
-                <season className={cx('season2')}>
+                </section>
+                <section className={cx('section2')}>
                     <div className={cx('form')}>
                         <h1>Book And Rent A Car</h1>
                         <h5>
@@ -162,17 +162,17 @@ function CarZone() {
                         </form>
                     </div>
                     <div className={cx('img-form')}>
-                        <img src={season2} alt="img" />
+                        <img src={section2} alt="img" />
                     </div>
-                </season>
-                <season className={cx('season3')}>
+                </section>
+                <section className={cx('section3')}>
                     <h1>Comfortable Car For Hire !</h1>
                     <h5>
                         Delectus, nesciunt imperdiet dolor litora orci? Tristique per natus. Saepe convallis, nostra.
                         Ducimus convallis necessitatibus alias, bibendum elit nemo.
                     </h5>
-                    <div className={cx('season3-content')}>
-                        <img className={cx('img34')} src={season34} alt="img" />
+                    <div className={cx('section3-content')}>
+                        <img className={cx('img34')} src={section34} alt="img" />
                         <div>
                             <p>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -188,13 +188,13 @@ function CarZone() {
                             </p>
                         </div>
                         <div>
-                            <img src={season33} alt="img" />
-                            <img src={season32} alt="img" />
-                            <img src={season31} alt="img" />
+                            <img src={section33} alt="img" />
+                            <img src={section32} alt="img" />
+                            <img src={section31} alt="img" />
                         </div>
                     </div>
-                </season>
-                <season className={cx('season4')}>
+                </section>
+                <section className={cx('section4')}>
                     <h1>Comfortable Car For Hire !</h1>
                     <header>
                         <h2>Comfortable Car</h2>
@@ -205,10 +205,10 @@ function CarZone() {
                             sure there isn't anything embarrassing hidden in the middle of text.
                         </span>
                     </header>
-                    <div className={cx('season4-img')}>
-                        <img src={season41} alt="img" />
-                        <img src={season42} alt="img" />
-                        <img src={season43} alt="img" />
+                    <div className={cx('section4-img')}>
+                        <img src={section41} alt="img" />
+                        <img src={section42} alt="img" />
+                        <img src={section43} alt="img" />
                     </div>
 
                     <h2>Our Faithful Staff</h2>
@@ -216,9 +216,9 @@ function CarZone() {
                         Delectus, nesciunt imperdiet dolor litora orci? Tristique per natus. Saepe convallis, nostra.
                         Ducimus convallis necessitatibus alias, bibendum elit nemo.
                     </span>
-                    <div className={cx('season4-content')}>
-                        <div className={cx('season4-item')}>
-                            <img src={season51} />
+                    <div className={cx('section4-content')}>
+                        <div className={cx('section4-item')}>
+                            <img src={section51} />
                             <h2>William Scott</h2>
                             <h4>Rental Agent</h4>
                             <p>
@@ -226,8 +226,8 @@ function CarZone() {
                                 (+89)652 555 320
                             </p>
                         </div>
-                        <div className={cx('season4-item')}>
-                            <img src={season52} />
+                        <div className={cx('section4-item')}>
+                            <img src={section52} />
                             <h2>William Scott</h2>
                             <h4>Rental Agent</h4>
                             <p>
@@ -235,8 +235,8 @@ function CarZone() {
                                 (+89)652 555 320
                             </p>
                         </div>
-                        <div className={cx('season4-item')}>
-                            <img src={season53} />
+                        <div className={cx('section4-item')}>
+                            <img src={section53} />
                             <h2>William Scott</h2>
                             <h4>Rental Agent</h4>
                             <p>
@@ -245,8 +245,8 @@ function CarZone() {
                             </p>
                         </div>
                     </div>
-                </season>
-                <season className={cx('season5')}>
+                </section>
+                <section className={cx('section5')}>
                     <header>
                         <h1>Read the best review from our users</h1>
                         <span>
@@ -254,8 +254,8 @@ function CarZone() {
                             suffered alteration in some form, by injected humour, or randomised
                         </span>
                     </header>
-                    <div className={cx('season5-content')}>
-                        <div className={cx('season5-item')}>
+                    <div className={cx('section5-content')}>
+                        <div className={cx('section5-item')}>
                             <span>
                                 I am very satisfied with the services provided and the consultation is very pleasant.
                                 The doctors are also friendly and very trustworthy and reliable
@@ -267,12 +267,12 @@ function CarZone() {
                                 <FontAwesomeIcon icon={faStar} />
                                 <FontAwesomeIcon icon={faStar} />
                             </p>
-                            <div className={cx('season5-person')}>
-                                <img src={season61} alt="img" />
+                            <div className={cx('section5-person')}>
+                                <img src={section61} alt="img" />
                                 <h4>Ronney Samba</h4>
                             </div>
                         </div>
-                        <div className={cx('season5-item')}>
+                        <div className={cx('section5-item')}>
                             <span>
                                 I am very happy with the service so friendly and the doctor who is really great with his
                                 expertise and can be relied on. and I can call the doctor whenever I want it can be
@@ -285,12 +285,12 @@ function CarZone() {
                                 <FontAwesomeIcon icon={faStar} />
                                 <FontAwesomeIcon icon={faStar} />
                             </p>
-                            <div className={cx('season5-person')}>
-                                <img src={season62} alt="img" />
+                            <div className={cx('section5-person')}>
+                                <img src={section62} alt="img" />
                                 <h4>Jenniver Janet</h4>
                             </div>
                         </div>
-                        <div className={cx('season5-item')}>
+                        <div className={cx('section5-item')}>
                             <span>
                                 I am very satisfied with the services provided and the consultation is very pleasant.
                                 The doctors are also friendly and very trustworthy and reliable
@@ -302,13 +302,13 @@ function CarZone() {
                                 <FontAwesomeIcon icon={faStar} />
                                 <FontAwesomeIcon icon={faStar} />
                             </p>
-                            <div className={cx('season5-person')}>
-                                <img src={season63} alt="img" />
+                            <div className={cx('section5-person')}>
+                                <img src={section63} alt="img" />
                                 <h4>Ronney Samba</h4>
                             </div>
                         </div>
                     </div>
-                </season>
+                </section>
             </main>
             <footer className={cx('footer')}>
                 <header>

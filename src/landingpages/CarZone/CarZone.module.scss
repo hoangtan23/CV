@@ -158,9 +158,9 @@
     }
 }
 
-// SEASON1
+// section1
 
-.season1 {
+.section1 {
     height: 1080px;
     display: flex;
     flex-direction: column;
@@ -177,7 +177,7 @@
         font-weight: 800;
         opacity: 0.3;
     }
-    .season1-tiltle {
+    .section1-tiltle {
         display: flex;
         flex-direction: column;
         font-size: 58px;
@@ -199,11 +199,11 @@
     div:nth-child(3) {
         margin-top: 120px;
     }
-    .season1-container {
+    .section1-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        .season1-item {
+        .section1-item {
             width: 514px;
             img {
                 width: 460px;
@@ -233,7 +233,7 @@
     }
 }
 
-.season2 {
+.section2 {
     height: 730px;
     display: flex;
     flex-direction: row;
@@ -305,7 +305,7 @@
     }
 }
 
-.season3 {
+.section3 {
     height: 960px;
     display: flex;
     flex-direction: column;
@@ -322,7 +322,7 @@
         font-weight: 500;
         margin-bottom: 74px;
     }
-    .season3-content {
+    .section3-content {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -365,7 +365,7 @@
     }
 }
 
-.season4 {
+.section4 {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -407,7 +407,7 @@
             opacity: 0.8;
         }
     }
-    .season4-img {
+    .section4-img {
         position: relative;
         img:nth-child(1) {
             position: absolute;
@@ -431,7 +431,7 @@
         width: 570px;
         text-align: center;
     }
-    .season4-content {
+    .section4-content {
         margin-top: 40px;
         width: 100%;
         display: flex;
@@ -443,7 +443,7 @@
         div:nth-child(3) {
             margin-top: 120px;
         }
-        .season4-item {
+        .section4-item {
             h2 {
                 position: relative;
                 font-size: 40px;
@@ -472,7 +472,7 @@
     }
 }
 
-.season5 {
+.section5 {
     header {
         display: flex;
         flex-direction: row;
@@ -487,18 +487,18 @@
             font-size: 14px;
         }
     }
-    .season5-content {
+    .section5-content {
         margin-top: 88px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         color: #fff;
         margin-bottom: 180px;
-        .season5-item:nth-child(2) {
+        .section5-item:nth-child(2) {
             margin-top: 60px;
             background-color: #fc621c;
         }
-        .season5-item {
+        .section5-item {
             width: 584px;
             height: 330px;
             display: flex;
@@ -518,7 +518,7 @@
                     margin-left: 10px;
                 }
             }
-            .season5-person {
+            .section5-person {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
