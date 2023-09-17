@@ -7,9 +7,12 @@ import Profile from './Layout/Profile';
 import CarZone from '../src/landingpages/CarZone';
 import Influexa from '../src/landingpages/Influexa';
 import Spinfluence from '../src/landingpages/Spinfluence';
-import UXUI_Desogner from '../src/landingpages/UXUI_Desogner';
-import Warkinon from '../src/landingpages/Warkinon';
+import Adidas from './landingpages/Adidas';
 import VCBclone from './Layout/VCBclone';
+import Project from './Layout/Profile/Project';
+import Landingpages from './Layout/Profile/Landingpages';
+import CV from './Layout/Profile/CV';
+import Tetris from './Project/TetrisGame';
 
 function App() {
     return (
@@ -24,8 +27,11 @@ function App() {
                     <Route path="/CarZone" element={<CarZone />} />
                     <Route path="/Influexa" element={<Influexa />} />
                     <Route path="/Spinfluence" element={<Spinfluence />} />
-                    <Route path="/UXUI_Desogner" element={<UXUI_Desogner />} />
-                    <Route path="/Warkinon" element={<Warkinon />} />
+                    <Route path="/Adidas" element={<Adidas />} />
+                    <Route path="/Tetris" element={<Tetris />} />
+                    <Route path="/Landingpages" element={<Landingpages />} />
+                    <Route path="/Project" element={<Project />} />
+                    <Route path="/CV" element={<CV />} />
                 </Routes>
             </div>
         </Router>

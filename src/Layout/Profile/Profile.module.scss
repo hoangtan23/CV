@@ -1,200 +1,115 @@
-.wrapper {
-    min-height: var(--height-background);
-    background-color: #fff1e8;
-    color: #111111;
-    header {
-        width: 100%;
-        height: 64px;
-    }
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h3 {
-        align-self: flex-start;
-    }
-}
-
-.project,
-.ldpages {
-    h3 {
-        padding: 30px 0;
-    }
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
     position: relative;
-    margin-bottom: 40px;
-}
-
-.slickslider {
-    width: 80%;
-    margin-bottom: 50px;
-}
-
-.content-item {
-    position: relative;
-    img {
-        width: 100%;
-        min-height: 350px;
-        border: 2px solid #ffffff;
-        border-radius: 6px;
-        margin-bottom: 12px;
-    }
-    img:hover ~ .btn,
-    .btn:hover {
-        color: #111111;
-        background-color: #ffffff;
-        border-radius: 6px;
-        transition: 0.3s linear;
-        animation: fade 1.5s infinite ease-in;
-    }
-    div {
-        margin: 30px 0;
-        font-size: 24px;
-        text-align: center;
-    }
-    .btn {
-        position: absolute;
-        right: 20px;
-        bottom: 120px;
-        padding: 4px 10px;
-        font-size: 24px;
-        background-color: transparent;
-        color: transparent;
-        text-decoration: none;
-    }
-}
-
-.cv {
-    position: relative;
-    display: inline-block;
-    font-size: 24px;
-    padding: 12px 60px;
-    margin-bottom: 40px;
-    background-color: #caef46;
-}
-.cv span {
-    position: absolute;
-    display: block;
-    background-image: linear-gradient(to right, #ffa400, #00eafd);
-    transition: all 0.25s linear;
-}
-
-.cv span:nth-child(1) {
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 3px;
-}
-
-.cv span:nth-child(2) {
-    top: 0;
-    right: 0;
-    width: 3px;
-    height: 0;
-    transition-delay: 0.25s;
-}
-
-.cv span:nth-child(3) {
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 3px;
-    transition-delay: 0.5s;
-}
-
-.cv span:nth-child(4) {
-    bottom: 0;
-    left: 0;
-    width: 3px;
-    height: 0;
-    transition-delay: 0.75s;
-}
-
-.cv:hover span:nth-child(odd) {
+    min-height: 100vh;
     width: 100%;
+    background-color: #161616;
+    overflow-x: hidden;
+    transform-style: preserve-3d;
+    background: linear-gradient(121deg, #1d2948 -2.28%, #141d33 21.31%, #0f1628 33.91%, #050a16 92.75%);
 }
 
-.cv:hover span:nth-child(even) {
+.main {
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 0.5s ease-in-out;
+
+    .content {
+        min-height: 100vh;
+        position: relative;
+    }
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
     height: 100%;
-}
-
-.stick1 {
-    position: absolute;
-    right: 0px;
     top: 0;
-    animation: spinner 5s infinite linear reverse;
+    left: 0;
+    background: linear-gradient(141deg, #1d2948 -12.28%, #141d33 41.31%, #0f1628 53.91%, #050a16 92.75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.stick2 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 0;
-    left: 300px;
-    animation: spinner 2s infinite linear;
+.container.active .main {
+    animation: main-animation 0.5s ease;
+    cursor: pointer;
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
 }
 
-.stick3 {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    animation: snake 0.5s infinite linear alternate;
-}
+@keyframes main-animation {
+    from {
+        transform: rotate(0);
+    }
 
-.stick4 {
-    position: absolute;
-    left: 7%;
-    top: 100px;
-}
-
-.stick5 {
-    position: absolute;
-    right: 7%;
-    bottom: 180px;
-}
-
-.move {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 8px 20px;
-    background-color: #8376f4;
-    border: 1px solid #333;
-    border-radius: 4px;
-    color: #333;
-    text-decoration: none;
-    svg {
-        margin-left: 4px;
+    to {
+        transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
     }
 }
 
-@keyframes spinner {
-    to {
-        transform: rotate(360deg);
+.main-container {
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform-style: preserve-3d;
+        transform-origin: left;
+        transition: 0.5s ease-in-out;
+        background-color: #fff;
+    }
+
+    &::before {
+        z-index: -1;
+        opacity: 0.15;
+    }
+
+    &::after {
+        z-index: -2;
+        opacity: 0.1;
     }
 }
 
-@keyframes snake {
-    to {
-        transform: rotate(30deg);
+.container.active .main-container::before {
+    animation: main-before 0.6s ease-out;
+    transform: perspective(1300px) rotateY(20deg) translateZ(215px) scale(0.5);
+}
+
+@keyframes main-before {
+    0% {
+        transform: translate(0);
+    }
+
+    5% {
+        transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+    }
+
+    100% {
+        transform: perspective(1300px) rotateY(20deg) translateZ(215px) scale(0.5);
     }
 }
 
-@keyframes bounce {
-    to {
-        transform: translateY(-10px);
-    }
+.container.active .main-container::after {
+    animation: main-after 0.6s ease-out;
+    transform: perspective(1300px) rotateY(20deg) translateZ(120px) scale(0.5);
 }
 
-@keyframes fade {
-    to {
-        opacity: 0.8;
-        scale: 1.2;
+@keyframes main-after {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+    }
+
+    100% {
+        transform: perspective(1300px) rotateY(20deg) translateZ(120px) scale(0.5);
     }
 }

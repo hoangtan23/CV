@@ -3,21 +3,27 @@ import rainymood from './rainymood.png';
 import CarZone from './CarZone.png';
 import influexa from './Influexa.png';
 import Spinfluence from './Spinfluence.png';
-import UXUI_Desogner from './UXUI_Desogner.png';
-import Warkinon from './Warkinon.png';
+import Adidas from './Adidas.png';
+import Tetris from './TetrisGame.png';
 
 export const project = [
     {
         id: 0,
-        img: VCB,
-        tiltle: 'VCB Internet Banking',
-        router: '/VCBclone',
-    },
-    {
-        id: 1,
         img: rainymood,
         tiltle: 'Rainy Mood',
         router: '/Intro',
+    },
+    {
+        id: 1,
+        img: VCB,
+        tiltle: 'VCB IB Validation',
+        router: '/VCBclone',
+    },
+    {
+        id: 2,
+        img: Tetris,
+        tiltle: 'Tetris Game',
+        router: '/Tetris',
     },
 ];
 
@@ -42,14 +48,8 @@ export const landingpages = [
     },
     {
         id: 3,
-        img: UXUI_Desogner,
-        tiltle: 'UXUI Desogner',
-        router: '/UXUI_Desogner',
-    },
-    {
-        id: 4,
-        img: Warkinon,
-        tiltle: 'Warkinon',
-        router: '/Warkinon',
+        img: Adidas,
+        tiltle: 'Move Slide Adidas',
+        router: '/Adidas',
     },
 ];
