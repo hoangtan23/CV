@@ -4,13 +4,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyles from './component/Globalstyle';
 import { ThemeProvider } from './ThemeContext';
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <GlobalStyles>
             <ThemeProvider>
-                <App />
+                <HashRouter>
+                    {' '}
+                    <App />
+                </HashRouter>
             </ThemeProvider>
         </GlobalStyles>
     </React.StrictMode>,

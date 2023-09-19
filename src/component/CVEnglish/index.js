@@ -2,9 +2,18 @@ import styles from './CVEnglish.module.scss';
 import classNames from 'classnames/bind';
 import ava from '../../images/happy1.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope, faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faCode, faLocationDot, faPalette, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faCss3, faFacebook, faFigma, faGithub, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import {
+    faCss3,
+    faFacebook,
+    faFigma,
+    faGithub,
+    faHtml5,
+    faJs,
+    faNode,
+    faReact,
+} from '@fortawesome/free-brands-svg-icons';
 import STU from './img/STULogo.png';
 import F8 from './img/f8-icon.png';
 import FPT from './img/FPT.png';
@@ -201,6 +210,16 @@ function CVEnglish(props) {
                                 ReactJS
                             </div>
                         </div>
+                        <div className={cx('design')}>
+                            <div className={cx('design-item')}>
+                                <FontAwesomeIcon icon={faPaperPlane} />
+                                <h4>Planing</h4>
+                            </div>
+                            <div className={cx('design-item')}>
+                                <FontAwesomeIcon icon={faNode} />
+                                ExpressJS
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className={cx('experience')}>
@@ -256,12 +275,17 @@ function CVEnglish(props) {
                             </svg>
                             <img src={FPT} alt="img" />
                         </p>
-                        <span>Accountant</span>
+                        <span>Accountant-Reconciliation</span>
+                        <ul>
+                            Work related to IT:
+                            <li>Handle bigdata</li>
+                            <li>Write getting key reconciliation process </li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <button className={cx('btn')} onClick={() => props.onSwitchCV('vn')}>
-                Vietnamese
+                Tiếng Việt
             </button>
         </div>
     );

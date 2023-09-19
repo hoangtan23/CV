@@ -16,7 +16,13 @@ function CV({ active, setActive }) {
         <div className={cx('wrapper')}>
             <Profile
                 content={
-                    current === 'vn' ? <CVVietnamese onSwitchCV={toggleCV} /> : <CVEnglish onSwitchCV={toggleCV} />
+                    <div className={cx('content')}>
+                        {current === 'vn' ? (
+                            <CVVietnamese onSwitchCV={toggleCV} />
+                        ) : (
+                            <CVEnglish onSwitchCV={toggleCV} />
+                        )}
+                    </div>
                 }
             />
         </div>

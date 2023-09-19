@@ -32,8 +32,6 @@ function SlickSlider({ tiltle }) {
         ojb = project;
     } else ojb = landingpages;
 
-    console.log(ojb);
-
     return (
         <div className={cx('wrapper')}>
             <Slider {...settings}>

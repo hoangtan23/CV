@@ -10,10 +10,10 @@ function Project() {
         <div className={cx('wrapper')}>
             <Profile
                 content={
-                    <p>
+                    <div className={cx('content')}>
                         <div className="tiltle">Project</div>
                         <SlickSlider tiltle={'project'} />
-                    </p>
+                    </div>
                 }
             />
         </div>

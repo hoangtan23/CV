@@ -2,13 +2,24 @@ import styles from './CVVietnamese.module.scss';
 import classNames from 'classnames/bind';
 import ava from '../../images/happy1.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope, faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faCode, faLocationDot, faPalette, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faCss3, faFacebook, faFigma, faGithub, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import {
+    faCss3,
+    faFacebook,
+    faFigma,
+    faGithub,
+    faHtml5,
+    faJs,
+    faNode,
+    faNodeJs,
+    faReact,
+} from '@fortawesome/free-brands-svg-icons';
 import STU from './img/STULogo.png';
 import F8 from './img/f8-icon.png';
 import FPT from './img/FPT.png';
 import W3 from './img/W3.png';
+import Ps from './img/Ps.png';
 
 const cx = classNames.bind(styles);
 
@@ -175,8 +186,8 @@ function CVVietnamese(props) {
                                 Figma
                             </div>
                             <div className={cx('design-item')}>
-                                <FontAwesomeIcon icon={faFigma} />
-                                Figma
+                                <img src={Ps} alt="img" />
+                                Photoshop
                             </div>
                         </div>
                         <div className={cx('design')}>
@@ -199,6 +210,16 @@ function CVVietnamese(props) {
                             <div className={cx('design-item')}>
                                 <FontAwesomeIcon icon={faReact} />
                                 ReactJS
+                            </div>
+                        </div>
+                        <div className={cx('design')}>
+                            <div className={cx('design-item')}>
+                                <FontAwesomeIcon icon={faPaperPlane} />
+                                <h4>Planing</h4>
+                            </div>
+                            <div className={cx('design-item')}>
+                                <FontAwesomeIcon icon={faNode} />
+                                ExpressJS
                             </div>
                         </div>
                     </div>
@@ -256,7 +277,12 @@ function CVVietnamese(props) {
                             </svg>
                             <img src={FPT} alt="img" />
                         </p>
-                        <span>Kế toán</span>
+                        <span>Kế toán-Đối soát</span>
+                        <ul>
+                            Công việc liên quan đến CNTT:
+                            <li>Xử lý dữ liệu bigdata</li>
+                            <li>Viết quy trình lấy key đối soát</li>
+                        </ul>
                     </div>
                 </div>
             </div>

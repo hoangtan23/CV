@@ -10,10 +10,10 @@ function Landingpages() {
         <div className={cx('wrapper')}>
             <Profile
                 content={
-                    <p>
+                    <div className={cx('content')}>
                         <div className="tiltle">LandingPages</div>
                         <SlickSlider tiltle={'landingpages'} />
-                    </p>
+                    </div>
                 }
             />
         </div>

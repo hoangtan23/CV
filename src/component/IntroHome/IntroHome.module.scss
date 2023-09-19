@@ -1,0 +1,77 @@
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+    span {
+        display: block;
+        overflow: hidden;
+        font-size: 22px;
+        white-space: nowrap;
+        margin-bottom: 24px;
+    }
+    span:nth-child(1) {
+        width: 820px;
+        animation: type 3s steps(40, end);
+        animation-fill-mode: forwards;
+    }
+    span:nth-child(2) {
+        width: 496px;
+        opacity: 0;
+        animation: type2 2s steps(40, end);
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+    }
+    span:nth-child(3) {
+        width: 150px;
+        opacity: 0;
+        animation: type3 2s steps(40, end), blink-caret 0.5s step-end infinite alternate;
+        animation-fill-mode: forwards;
+        animation-delay: 5s;
+    }
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: 3px solid orange;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: 3px solid orange;
+    }
+    100% {
+        border: none;
+        opacity: 1;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        border-right: 3px solid orange;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}

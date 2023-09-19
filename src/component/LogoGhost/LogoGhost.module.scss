@@ -1,0 +1,32 @@
+.wrapper {
+    svg {
+        font-size: 40px;
+        color: aqua;
+        animation: move 3s ease infinite alternate, color 3s linear infinite;
+    }
+}
+
+@keyframes move {
+    0% {
+        rotate: 60deg;
+    }
+    50% {
+        rotate: -60deg;
+        transform: translateX(16px);
+    }
+    100% {
+        transform: translateX(-16px);
+    }
+}
+
+@keyframes color {
+    0% {
+        color: #fff;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: blue;
+    }
+}
