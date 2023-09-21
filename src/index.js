@@ -11,10 +11,7 @@ root.render(
     <React.StrictMode>
         <GlobalStyles>
             <ThemeProvider>
-                <HashRouter>
-                    {' '}
-                    <App />
-                </HashRouter>
+                <App />
             </ThemeProvider>
         </GlobalStyles>
     </React.StrictMode>,

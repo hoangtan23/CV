@@ -28,10 +28,10 @@ function CVEnglish(props) {
             <div className={cx('left')}>
                 <h1>Tran Hoang Tan</h1>
                 <h2>Frontend Development</h2>
-                <p>
+                <div>
                     "Change..."
-                    <h5>Everything-Everywhere</h5>
-                </p>
+                    <h4>Everything-Everywhere</h4>
+                </div>
                 <div className={cx('left-content')}>
                     <div className={cx('left-item')}>
                         <FontAwesomeIcon icon={faEnvelope} />

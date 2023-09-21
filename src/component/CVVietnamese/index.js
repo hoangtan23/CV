@@ -30,10 +30,10 @@ function CVVietnamese(props) {
             <div className={cx('left')}>
                 <h1>Trần Hoàng Tân</h1>
                 <h2>Lập trình viên Frontend</h2>
-                <p>
+                <div>
                     "Thay Đổi..."
-                    <h5>Mọi thứ-Mọi nơi</h5>
-                </p>
+                    <h4>Mọi thứ-Mọi nơi</h4>
+                </div>
                 <div className={cx('left-content')}>
                     <div className={cx('left-item')}>
                         <FontAwesomeIcon icon={faEnvelope} />
