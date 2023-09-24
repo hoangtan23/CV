@@ -12,7 +12,8 @@ import VCBclone from './Layout/VCBclone';
 import Project from './Layout/Profile/Project';
 import Landingpages from './Layout/Profile/Landingpages';
 import CV from './Layout/Profile/CV';
-import Tetris from './Project/TetrisGame';
+import CrytoApp from './Project/CrytoApp';
+import WeatherApp from './Project/WeatherApp';
 
 function App() {
     return (
@@ -28,7 +29,8 @@ function App() {
                     <Route path="/Influexa" element={<Influexa />} />
                     <Route path="/Spinfluence" element={<Spinfluence />} />
                     <Route path="/Adidas" element={<Adidas />} />
-                    <Route path="/Tetris" element={<Tetris />} />
+                    <Route path="/CrytoApp" element={<CrytoApp />} />
+                    <Route path="/WeatherApp" element={<WeatherApp />} />
                     <Route path="/Landingpages" element={<Landingpages />} />
                     <Route path="/Project" element={<Project />} />
                     <Route path="/CV" element={<CV />} />

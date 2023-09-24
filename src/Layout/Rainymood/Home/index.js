@@ -1,6 +1,7 @@
 import styles from './Home.module.scss';
 import className from 'classnames/bind';
 
+import LogoGhost from '../../../component/LogoGhost';
 import DarkMode from '../../../component/DarkMode';
 import Button from '../../../component/Button';
 import Audio from '../../../component/Audio/index.js';
@@ -19,6 +20,9 @@ function Home() {
 
     return (
         <div className={className}>
+            <div className={cx('logoghost')}>
+                <LogoGhost />
+            </div>
             <header className={cx('header')}>
                 <DarkMode />
 

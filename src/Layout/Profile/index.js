@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import styles from './Profile.module.scss';
 import classNames from 'classnames/bind';
@@ -8,7 +8,7 @@ import IntroHome from '../../component/IntroHome';
 
 const cx = classNames.bind(styles);
 
-function Profile({ content, intro }) {
+function Profile({ content }) {
     const [active, setActive] = useState(false);
 
     const classes = cx('container', { active });

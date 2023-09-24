@@ -6,12 +6,16 @@ import { faSadTear, faSmileBeam } from '@fortawesome/free-solid-svg-icons';
 import Button from '../../../component/Button';
 import happy from '../../../images/happy1.gif';
 import tired from '../../../images/tired1.gif';
+import LogoGhost from '../../../component/LogoGhost';
 
 const cx = className.bind(styles);
 
 function Intro() {
     return (
         <div className={cx('wrapper')}>
+            <div className={cx('logoghost')}>
+                <LogoGhost />
+            </div>
             <div className={cx('content')}>
                 <div className={cx('tiltle')}>how you feels today?</div>
 

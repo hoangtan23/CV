@@ -1,6 +1,5 @@
 import styles from './CVEnglish.module.scss';
 import classNames from 'classnames/bind';
-import ava from '../../images/happy1.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faCode, faLocationDot, faPalette, faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -18,20 +17,22 @@ import STU from './img/STULogo.png';
 import F8 from './img/f8-icon.png';
 import FPT from './img/FPT.png';
 import W3 from './img/W3.png';
+import Ava from './img/ava.png';
+import Ps from './img/Ps.png';
 
 const cx = classNames.bind(styles);
 
 function CVEnglish(props) {
     return (
         <div className={cx('wrapper')}>
-            <img src={ava} alt="img" className={cx('img-ava')} />
+            <img src={Ava} alt="img" className={cx('img-ava')} />
             <div className={cx('left')}>
                 <h1>Tran Hoang Tan</h1>
                 <h2>Frontend Development</h2>
-                <div>
+                <p>
                     "Change..."
-                    <h4>Everything-Everywhere</h4>
-                </div>
+                    <h4>Everything - Everywhere</h4>
+                </p>
                 <div className={cx('left-content')}>
                     <div className={cx('left-item')}>
                         <FontAwesomeIcon icon={faEnvelope} />
@@ -68,7 +69,7 @@ function CVEnglish(props) {
                         <FontAwesomeIcon icon={faGithub} />
                         <div className={cx('socials-tiltle')}>
                             <h4>Github</h4>
-                            <span>hoangtan2398@gmail.com</span>
+                            <span>github.com/hoangtan23</span>
                         </div>
                     </div>
                 </div>
@@ -147,7 +148,7 @@ function CVEnglish(props) {
                     <h1>Education</h1>
                     <div className={cx('education-item')}>
                         <img src={STU} alt="img" />
-                        <span>Business</span>
+                        <span>Business - Accountant</span>
                     </div>
                     <div className={cx('education-item')}>
                         <img src={F8} alt="img" />
@@ -184,8 +185,8 @@ function CVEnglish(props) {
                                 Figma
                             </div>
                             <div className={cx('design-item')}>
-                                <FontAwesomeIcon icon={faFigma} />
-                                Figma
+                                <img src={Ps} alt="img" />
+                                Photoshop
                             </div>
                         </div>
                         <div className={cx('design')}>

@@ -3,6 +3,12 @@
     background-image: url('../../../images/meiying-ng-OrwkD-iWgqg-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    .logoghost {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
 }
 
 .dark {

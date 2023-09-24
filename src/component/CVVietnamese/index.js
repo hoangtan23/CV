@@ -1,6 +1,5 @@
 import styles from './CVVietnamese.module.scss';
 import classNames from 'classnames/bind';
-import ava from '../../images/happy1.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faCode, faLocationDot, faPalette, faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +11,6 @@ import {
     faHtml5,
     faJs,
     faNode,
-    faNodeJs,
     faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import STU from './img/STULogo.png';
@@ -20,20 +18,21 @@ import F8 from './img/f8-icon.png';
 import FPT from './img/FPT.png';
 import W3 from './img/W3.png';
 import Ps from './img/Ps.png';
+import Ava from './img/ava.png';
 
 const cx = classNames.bind(styles);
 
 function CVVietnamese(props) {
     return (
         <div className={cx('wrapper')}>
-            <img src={ava} alt="img" className={cx('img-ava')} />
+            <img src={Ava} alt="img" className={cx('img-ava')} />
             <div className={cx('left')}>
                 <h1>Trần Hoàng Tân</h1>
                 <h2>Lập trình viên Frontend</h2>
-                <div>
+                <p>
                     "Thay Đổi..."
-                    <h4>Mọi thứ-Mọi nơi</h4>
-                </div>
+                    <h4>Mọi thứ - Mọi nơi</h4>
+                </p>
                 <div className={cx('left-content')}>
                     <div className={cx('left-item')}>
                         <FontAwesomeIcon icon={faEnvelope} />
@@ -70,7 +69,7 @@ function CVVietnamese(props) {
                         <FontAwesomeIcon icon={faGithub} />
                         <div className={cx('socials-tiltle')}>
                             <h4>Github</h4>
-                            <span>https://github.com/hoangtan23</span>
+                            <span>github.com/hoangtan23</span>
                         </div>
                     </div>
                 </div>

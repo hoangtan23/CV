@@ -5,6 +5,7 @@ import influexa from './Influexa.png';
 import Spinfluence from './Spinfluence.png';
 import Adidas from './Adidas.png';
 import Tetris from './TetrisGame.png';
+import WeatherApp from './WeatherApp.png';
 
 export const project = [
     {
@@ -15,15 +16,21 @@ export const project = [
     },
     {
         id: 1,
+        img: WeatherApp,
+        tiltle: 'Weather App',
+        router: '/WeatherApp',
+    },
+    {
+        id: 2,
         img: VCB,
         tiltle: 'VCB IB Validation',
         router: '/VCBclone',
     },
     {
-        id: 2,
+        id: 3,
         img: Tetris,
-        tiltle: 'Tetris Game',
-        router: '/Tetris',
+        tiltle: 'CrytoApp',
+        router: '/CrytoApp',
     },
 ];
 
