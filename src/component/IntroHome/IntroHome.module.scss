@@ -20,7 +20,7 @@
         animation-fill-mode: forwards;
     }
     span:nth-child(3) {
-        width: 150px;
+        width: 130px;
         opacity: 0;
         animation: type3 2s steps(40, end), blink-caret 0.5s step-end infinite alternate;
         animation-fill-mode: forwards;

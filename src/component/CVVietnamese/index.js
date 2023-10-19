@@ -279,8 +279,9 @@ function CVVietnamese(props) {
                         <span>Kế toán-Đối soát</span>
                         <ul>
                             Công việc liên quan đến CNTT:
-                            <li>Xử lý dữ liệu bigdata</li>
-                            <li>Viết quy trình lấy key đối soát</li>
+                            <li>-Xử lý dữ liệu bigdata</li>
+                            <li>-Viết quy trình lấy key đối soát</li>
+                            <li>-Sử dụng SQL truy vấn dữ liệu</li>
                         </ul>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ function CVEnglish(props) {
             <img src={Ava} alt="img" className={cx('img-ava')} />
             <div className={cx('left')}>
                 <h1>Tran Hoang Tan</h1>
-                <h2>Frontend Development</h2>
+                <h2>Frontend Developer</h2>
                 <p>
                     "Change..."
                     <h4>Everything - Everywhere</h4>
@@ -57,7 +57,7 @@ function CVEnglish(props) {
                     </div>
                 </div>
                 <div className={cx('socials')}>
-                    <h4>socials</h4>
+                    <h4>Socials</h4>
                     <div className={cx('socials-item')}>
                         <FontAwesomeIcon icon={faFacebook} />
                         <div className={cx('socials-tiltle')}>
@@ -132,7 +132,7 @@ function CVEnglish(props) {
                         </svg>
                         <div>
                             English
-                            <span>Native</span>
+                            <span>Basic</span>
                         </div>
                     </div>
                 </div>
@@ -281,6 +281,7 @@ function CVEnglish(props) {
                             Work related to IT:
                             <li>Handle bigdata</li>
                             <li>Write getting key reconciliation process </li>
+                            <li>Use SQL to query data</li>
                         </ul>
                     </div>
                 </div>
