@@ -276,7 +276,9 @@ function CVVietnamese(props) {
                             </svg>
                             <img src={FPT} alt="img" />
                         </p>
-                        <span>Kế toán-Đối soát</span>
+                        <span>Kế toán-Đối soát : 4 năm kinh nghiệm</span>
+                        <h4>Momo - 3 năm</h4>
+                        <h4>FPT - 1 năm</h4>
                         <ul>
                             Công việc liên quan đến CNTT:
                             <li>-Xử lý dữ liệu bigdata</li>

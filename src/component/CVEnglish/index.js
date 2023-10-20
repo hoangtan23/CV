@@ -276,7 +276,9 @@ function CVEnglish(props) {
                             </svg>
                             <img src={FPT} alt="img" />
                         </p>
-                        <span>Accountant-Reconciliation</span>
+                        <span>Accountant-Reconciliation : 4 years of experience</span>
+                        <h4>Momo - 3 year</h4>
+                        <h4>FPT - 1 years</h4>
                         <ul>
                             Work related to IT:
                             <li>Handle bigdata</li>
